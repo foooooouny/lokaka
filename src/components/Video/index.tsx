@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="行业领先的团队"
+          paragraph="我们拥有一支由资深工程师和技术专家组成的团队，具备广泛的技术知识和丰富的行业经验。无论是软件开发、系统集成、数据分析还是云服务，我们都能提供定制化的技术解决方案，确保您的业务始终处于领先地位。"
           center
           mb="80px"
         />

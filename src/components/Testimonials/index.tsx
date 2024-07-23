@@ -5,29 +5,29 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "张先生",
+    designation: "创始人 @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "我们对贵公司的技术支持服务感到非常满意。他们提供的定制化解决方案完全符合我们的需求，帮助我们解决了许多技术挑战。团队的响应速度和专业性令人印象深刻，让我们的业务运行更加顺畅。",
+    image: "/images/testimonials/customer-1.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "王先生",
+    designation: "项目总监 @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "作为一家初创企业，我们需要一个可靠的技术合作伙伴来支持我们的快速发展。贵公司提供的服务不仅高效，而且非常具有前瞻性。他们的技术解决方案帮助我们在市场上迅速取得了成功。",
+    image: "/images/testimonials/customer-2.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "廖女士",
+    designation: "产品总监 @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "在与贵公司合作的过程中，我们感受到了一流的服务和技术支持。无论是系统集成还是数据分析，他们都提供了卓越的服务。特别是在项目紧张的时刻，他们的快速响应和解决方案极大地减轻了我们的压力。",
+    image: "/images/testimonials/customer-3.png",
     star: 5,
   },
 ];
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="我们的用户说"
+          paragraph="我们的客户是我们最宝贵的资产，他们的反馈和成功故事是我们服务质量的最佳证明。"
           center
         />
 
