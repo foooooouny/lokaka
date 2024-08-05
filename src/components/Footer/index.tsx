@@ -224,7 +224,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              @洛卡卡卡网络科技
+            @洛卡卡卡网络科技
               {/* Template by{" "}
               <a
                 href="http://uideck.com"
@@ -243,6 +243,7 @@ const Footer = () => {
               >
                 Next.js Templates
               </a> */}
+              <span className='lokaka-icp'>沪ICP备2024085533号</span>
             </p>
           </div>
         </div>
